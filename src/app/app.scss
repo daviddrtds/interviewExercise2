@@ -42,10 +42,6 @@
 
   &__userNotification {
     font-size: 1.2rem;
-    cursor: pointer;
-    &:hover {
-      color: var(--color-added);
-    }
   }
 
   &__userAvatar {
