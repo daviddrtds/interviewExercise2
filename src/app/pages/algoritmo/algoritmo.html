@@ -1,0 +1,28 @@
+<div class="algoritmo">
+  <div class="algoritmo__input-row">
+    <input
+      class="algoritmo__input"
+      type="text"
+      placeholder="ex. 1, 2, 3, 1, 2, 3, 4"
+      (input)="onInput($event)"
+    />
+    <button class="algoritmo__btn" (click)="run()">testar</button>
+  </div>
+
+  @if (error()) {
+    <p class="algoritmo__error">{{ error() }}</p>
+  }
+
+  @if (result() !== null) {
+    @if (result()!.length === 0) {
+      <div class="algoritmo__result">
+        <span class="algoritmo__result-label">nenhum padrão encontrado</span>
+      </div>
+    } @else {
+      <div class="algoritmo__result">
+        <span>maior padrao:</span>
+        <span>[ {{ result()!.join(', ') }} ]</span>
+      </div>
+    }
+  }
+</div>

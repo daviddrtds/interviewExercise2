@@ -1,0 +1,206 @@
+.card {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 12px 16px;
+  background-color: var(--color-background-card);
+  border-radius: 6px;
+  gap: 18px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+
+  &.on-now {
+    background-color: var(--color-accent-secondary);
+  }
+
+  &__image-wrapper {
+    flex-shrink: 0;
+    width: 90px;
+    height: 90px;
+    img {
+      border-radius: 8px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__name {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  &__track {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: auto;
+  }
+
+  &__btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:
+      transform 0.1s ease,
+      opacity 0.1s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    &.play {
+      span {
+        font-size: 2rem;
+      }
+      color: var(--color-accent-primary);
+
+      &.playing {
+        color: var(--color-text-secondary);
+      }
+
+      &.loading {
+        opacity: 0.7;
+        cursor: wait;
+      }
+    }
+
+    &.add {
+      color: var(--color-added);
+    }
+
+    &.remove {
+      color: var(--color-removed);
+    }
+  }
+}
+
+// ------------------------------------playlist----------------------------------------------
+
+.card-playlist {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 8px 20px;
+  background-color: var(--color-background-card);
+  border-radius: 6px;
+  gap: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  @media (min-width: 768px) {
+    padding: 8px 24px 8px 12px;
+  }
+
+  &.on-now {
+    background-color: var(--color-accent-secondary);
+  }
+
+  &__btn-drag {
+    display: none;
+    @media (min-width: 768px) {
+      display: block;
+      cursor: grab;
+      font-size: 1.4rem;
+      color: var(--color-text-secondary);
+    }
+  }
+
+  &__image-wrapper {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    img {
+      border-radius: 8px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  &__name {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  &__track {
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__buttons {
+    display: flex;
+    margin-left: auto;
+    gap: 28px;
+  }
+
+  &__button-container {
+    display: flex;
+    gap: 12px;
+  }
+
+  &__btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:
+      transform 0.1s ease,
+      opacity 0.1s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    &.play {
+      span {
+        font-size: 2rem;
+      }
+      color: var(--color-accent-primary);
+
+      &.playing {
+        color: var(--color-text-secondary);
+      }
+
+      &.loading {
+        opacity: 0.7;
+        cursor: wait;
+      }
+    }
+
+    &.heart {
+      color: var(--color-text-primary);
+      &--active {
+        color: var(--color-removed);
+      }
+    }
+
+    &.remove {
+      color: var(--color-removed);
+    }
+  }
+}

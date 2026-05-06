@@ -1,0 +1,31 @@
+<div class="mobile-nav" [class.mobile-nav--open]="isOpen()">
+  @if (isOpen()) {
+    <div class="mobile-nav__links">
+      <button class="mobile-nav__shrink" (click)="toggle()">
+        <span class="material-icons"> navigate_before </span>
+      </button>
+      <a
+        class="mobile-nav__link"
+        routerLink="/"
+        routerLinkActive="mobile-nav__link--active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        (click)="toggle()"
+      >
+        <span class="material-icons"> play_circle_outline </span>
+      </a>
+
+      <a
+        class="mobile-nav__link"
+        routerLink="/playlist"
+        routerLinkActive="mobile-nav__link--active"
+        (click)="toggle()"
+      >
+        <span class="material-icons"> queue_music </span>
+      </a>
+    </div>
+  } @else {
+    <button class="mobile-nav__trigger" (click)="toggle()">
+      <span class="material-icons"> navigate_next </span>
+    </button>
+  }
+</div>

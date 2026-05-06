@@ -1,0 +1,38 @@
+.playlist {
+  &__empty {
+    text-align: center;
+    padding: 48px 0;
+    color: var(--color-text-secondary);
+  }
+
+  &__section {
+    margin-bottom: 32px;
+  }
+
+  &__section-title {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.85rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    color: var(--color-text-secondary);
+    margin-bottom: 12px;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+.cdk-drag-animating {
+  transition: transform 300ms ease;
+}
+
+.playlist__list.cdk-drop-list-dragging li:not(.cdk-drag-placeholder) {
+  transition: transform 300ms ease;
+}

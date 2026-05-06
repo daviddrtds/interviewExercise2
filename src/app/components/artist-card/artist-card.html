@@ -1,0 +1,97 @@
+@if (mode === 'playlist') {
+  <div class="card-playlist" [class.on-now]="currentlyPlayingId() === artist.id">
+    <div class="card-playlist__btn-drag" cdkDragHandle>&#8942;</div>
+    <div class="card-playlist__image-wrapper">
+      <img [src]="artist.picture_medium" [alt]="artist.name" />
+    </div>
+    <div class="card-playlist__info">
+      <div class="card-playlist__artist-track">
+        <h3 class="card-playlist__name">{{ artist.name }}</h3>
+        @if (currentTrack()) {
+          <span class="card-playlist__track">♪ {{ currentTrack()!.title }}</span>
+        } @else {
+          <span class="card-playlist__track">Now playing</span>
+        }
+      </div>
+
+      <div class="card-playlist__buttons">
+        <div class="card-playlist__button-container">
+          <button
+            title="Remove from playlist"
+            class="card-playlist__btn remove"
+            (click)="onRemove()"
+          >
+            <span class="material-icons"> remove_circle_outline </span>
+          </button>
+          <button
+            tittle="Add to favourites"
+            class="card-playlist__btn heart"
+            [class.heart--active]="isFavourite()"
+            (click)="onToggleFav()"
+          >
+            <span class="material-icons">
+              {{ isFavourite() ? 'favorite' : 'favorite_border' }}
+            </span>
+          </button>
+        </div>
+        <button
+          title="Play music sample"
+          class="card-playlist__btn play"
+          [class.playing]="currentlyPlayingId() === artist.id"
+          [class.loading]="isLoading()"
+          (click)="togglePlay()"
+        >
+          @if (isLoading()) {
+            <span class="material-icons"> update </span>
+          } @else if (currentlyPlayingId() === artist.id) {
+            <span class="material-icons"> pause_circle_filled </span>
+          } @else {
+            <span class="material-icons"> play_circle_filled </span>
+          }
+        </button>
+      </div>
+    </div>
+  </div>
+} @else {
+  <div class="card" [class.on-now]="currentlyPlayingId() === artist.id">
+    <div class="card__image-wrapper">
+      <img [src]="artist.picture_medium" [alt]="artist.name" />
+    </div>
+
+    <div class="card__info">
+      <h3 class="card__name">{{ artist.name }}</h3>
+      @if (currentTrack()) {
+        <span class="card__track">♪ {{ currentTrack()!.title }}</span>
+      } @else {
+        <span class="card__track">Now playing</span>
+      }
+
+      <div class="card__buttons">
+        <button
+          title="Play music sample"
+          class="card__btn play"
+          [class.playing]="currentlyPlayingId() === artist.id"
+          [class.loading]="isLoading()"
+          (click)="togglePlay()"
+        >
+          @if (isLoading()) {
+            <span class="material-icons"> update </span>
+          } @else if (currentlyPlayingId() === artist.id) {
+            <span class="material-icons"> pause_circle_filled </span>
+          } @else {
+            <span class="material-icons"> play_circle_filled </span>
+          }
+        </button>
+        @if (isInPlaylist()) {
+          <button title="Remove from playlist" class="card__btn remove" (click)="onRemove()">
+            <span class="material-icons"> remove_circle_outline </span>
+          </button>
+        } @else {
+          <button title="Add to playlist" class="card__btn add" (click)="onAdd()">
+            <span class="material-icons"> add_circle_outline </span>
+          </button>
+        }
+      </div>
+    </div>
+  </div>
+}

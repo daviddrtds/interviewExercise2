@@ -1,0 +1,32 @@
+.artists {
+  display: flex;
+  flex-direction: column;
+
+  &__card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (min-width: 1200px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @media (min-width: 1600px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &__loading,
+  &__error,
+  &__empty {
+    text-align: center;
+    padding: 48px 0;
+    color: var(--color-text-secondary);
+  }
+
+  &__error {
+    color: var(--color-removed);
+  }
+}

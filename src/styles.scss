@@ -1,1 +1,81 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --color-background: #14141e;
+  --color-background-card: #232230;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #ffffff83;
+  --color-accent-primary: #7066fd;
+  --color-accent-secondary: #36335f;
+  --color-added: #56bb55;
+  --color-removed: #e05555;
+  --color-border: rgba(255, 255, 255, 0.08);
+
+  --font-family: 'Roboto', sans-serif;
+}
+
+// --------------------------------------------- reset -------------------------------------------------------------------
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// --------------------------------------------- reset -------------------------------------------------------------------
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  font-family: var(--font-family);
+  letter-spacing: 0.3px;
+  min-height: 100vh;
+}

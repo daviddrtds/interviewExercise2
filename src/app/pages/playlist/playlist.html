@@ -1,0 +1,34 @@
+<div class="playlist">
+  @if (playlist().length === 0) {
+    <div class="playlist__empty">
+      <p>No artists added yet.</p>
+    </div>
+  } @else {
+    @if (favourites().length > 0) {
+      <div class="playlist__section">
+        <h2 class="playlist__section-title">Favourites</h2>
+        <ul class="playlist__list" cdkDropList (cdkDropListDropped)="dropFavourites($event)">
+          @for (artist of favourites(); track artist.id) {
+            <li cdkDrag>
+              <app-artist-card [artist]="artist" [mode]="'playlist'" (remove)="remove($event)">
+              </app-artist-card>
+            </li>
+          }
+        </ul>
+      </div>
+    }
+
+    @if (queue().length > 0) {
+      <div class="playlist__section">
+        <ul class="playlist__list" cdkDropList (cdkDropListDropped)="dropQueue($event)">
+          @for (artist of queue(); track artist.id) {
+            <li cdkDrag>
+              <app-artist-card [artist]="artist" [mode]="'playlist'" (remove)="remove($event)">
+              </app-artist-card>
+            </li>
+          }
+        </ul>
+      </div>
+    }
+  }
+</div>

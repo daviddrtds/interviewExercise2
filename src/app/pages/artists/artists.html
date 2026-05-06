@@ -1,0 +1,22 @@
+<div class="artists">
+  @if (isLoading()) {
+    <div class="artists__loading">Loading...</div>
+  }
+
+  @if (error()) {
+    <div class="artists__error">{{ error() }}</div>
+  }
+
+  @if (filteredArtist().length === 0 && !isLoading()) {
+    <div class="artists__empty">No artist found.</div>
+  }
+
+  @if (!isLoading() && !error()) {
+    <div class="artists__card">
+      @for (artist of filteredArtist(); track artist.id) {
+        <app-artist-card [artist]="artist" (add)="onAdd($event)" (remove)="onRemove($event)">
+        </app-artist-card>
+      }
+    </div>
+  }
+</div>

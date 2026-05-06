@@ -1,0 +1,247 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Drake",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Drake_at_The_Carter_Effect_2017_%2836818935200%29_%28cropped%29.jpg/250px-Drake_at_The_Carter_Effect_2017_%2836818935200%29_%28cropped%29.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Drake",
+      "position": 1,
+      "tracklist": "/assets/data/tracks/drake.json"
+    },
+    {
+      "id": 2,
+      "name": "Taylor Swift",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/250px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Taylor+Swift",
+      "position": 2,
+      "tracklist": "/assets/data/tracks/taylor.json"
+    },
+    {
+      "id": 3,
+      "name": "The Weeknd",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/The_Weeknd_Portrait_by_Brian_Ziff.jpg/250px-The_Weeknd_Portrait_by_Brian_Ziff.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Weeknd",
+      "position": 3,
+      "tracklist": "/assets/data/tracks/weeknd.json"
+    },
+    {
+      "id": 4,
+      "name": "Bad Bunny",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg/250px-Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Bad+Bunny",
+      "position": 4,
+      "tracklist": "/assets/data/tracks/badbunny.json"
+    },
+    {
+      "id": 5,
+      "name": "Ed Sheeran",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg/250px-Ed_Sheeran-6886_%28cropped%29.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Ed+Sheeran",
+      "position": 5,
+      "tracklist": "/assets/data/tracks/ed.json"
+    },
+    {
+      "id": 6,
+      "name": "Ariana Grande",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Ariana_Grande_promoting_Wicked_%282024%29.jpg/250px-Ariana_Grande_promoting_Wicked_%282024%29.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Ariana",
+      "position": 6,
+      "tracklist": "/assets/data/tracks/ariana.json"
+    },
+    {
+      "id": 7,
+      "name": "Post Malone",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Post_Malone_July_2021_%28cropped%29.jpg/250px-Post_Malone_July_2021_%28cropped%29.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Post+Malone",
+      "position": 7,
+      "tracklist": "/assets/data/tracks/post.json"
+    },
+    {
+      "id": 8,
+      "name": "Billie Eilish",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/BillieEilishO2140725-39_-_54665577407_%28cropped%29.jpg/250px-BillieEilishO2140725-39_-_54665577407_%28cropped%29.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Billie",
+      "position": 8,
+      "tracklist": "/assets/data/tracks/billie.json"
+    },
+    {
+      "id": 9,
+      "name": "Kanye West",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kanye_West_at_the_2009_Tribeca_Film_Festival_%28crop_2%29.jpg/250px-Kanye_West_at_the_2009_Tribeca_Film_Festival_%28crop_2%29.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Kanye",
+      "position": 9,
+      "tracklist": "/assets/data/tracks/kanye.json"
+    },
+    {
+      "id": 10,
+      "name": "Rihanna",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Rihanna_Fenty_2018.png/250px-Rihanna_Fenty_2018.png",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Rihanna",
+      "position": 10,
+      "tracklist": "/assets/data/tracks/rihanna.json"
+    },
+
+    {
+      "id": 11,
+      "name": "Bruno Mars",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/BrunoMars24KMagicWorldTourLive_%28cropped%29.jpg/250px-BrunoMars24KMagicWorldTourLive_%28cropped%29.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Bruno",
+      "position": 11,
+      "tracklist": "/assets/data/tracks/bruno.json"
+    },
+    {
+      "id": 12,
+      "name": "Dua Lipa",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Dua_Lipa-69798_%28cropped%29.jpg/250px-Dua_Lipa-69798_%28cropped%29.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Dua+Lipa",
+      "position": 12,
+      "tracklist": "/assets/data/tracks/dua.json"
+    },
+    {
+      "id": 13,
+      "name": "Travis Scott",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2025-0120_Cole_Gahagan_Michael_Rubin_Travis_Scott_%28cropped%29.jpg/250px-2025-0120_Cole_Gahagan_Michael_Rubin_Travis_Scott_%28cropped%29.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Travis",
+      "position": 13,
+      "tracklist": "/assets/data/tracks/travis.json"
+    },
+    {
+      "id": 14,
+      "name": "Doja Cat",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Doja_Cat_x_Amazon1.1_%28cropped%29.jpg/250px-Doja_Cat_x_Amazon1.1_%28cropped%29.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Doja",
+      "position": 14,
+      "tracklist": "/assets/data/tracks/doja.json"
+    },
+    {
+      "id": 15,
+      "name": "Shawn Mendes",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/191125_Shawn_Mendes_at_the_2019_American_Music_Awards.png/250px-191125_Shawn_Mendes_at_the_2019_American_Music_Awards.png",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Shawn",
+      "position": 15,
+      "tracklist": "/assets/data/tracks/shawn.json"
+    },
+    {
+      "id": 16,
+      "name": "Selena Gomez",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Selena_Gomez_at_the_2024_Toronto_International_Film_Festival_10_%28cropped%29.jpg/250px-Selena_Gomez_at_the_2024_Toronto_International_Film_Festival_10_%28cropped%29.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Selena",
+      "position": 16,
+      "tracklist": "/assets/data/tracks/selena.json"
+    },
+    {
+      "id": 17,
+      "name": "Imagine Dragons",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Imagine_Dragons_-_Uncasville_CT_-_November_2017_-_2.jpg/330px-Imagine_Dragons_-_Uncasville_CT_-_November_2017_-_2.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Imagine",
+      "position": 17,
+      "tracklist": "/assets/data/tracks/imagine.json"
+    },
+    {
+      "id": 18,
+      "name": "Coldplay",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ColdplayWembley120925_%28cropped%29.jpg/330px-ColdplayWembley120925_%28cropped%29.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Coldplay",
+      "position": 18,
+      "tracklist": "/assets/data/tracks/coldplay.json"
+    },
+    {
+      "id": 19,
+      "name": "Maroon 5",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Maroon_5_Current_Lineup_Collage.jpg/250px-Maroon_5_Current_Lineup_Collage.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Maroon5",
+      "position": 19,
+      "tracklist": "/assets/data/tracks/maroon.json"
+    },
+    {
+      "id": 20,
+      "name": "Justin Bieber",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Justin_Bieber_in_2015.jpg/250px-Justin_Bieber_in_2015.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Bieber",
+      "position": 20,
+      "tracklist": "/assets/data/tracks/bieber.json"
+    },
+
+    {
+      "id": 21,
+      "name": "Harry Styles",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg/250px-HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Harry",
+      "position": 21,
+      "tracklist": "/assets/data/tracks/harry.json"
+    },
+    {
+      "id": 22,
+      "name": "Sia",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sia_%28cropped_2%29.jpg/250px-Sia_%28cropped_2%29.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Sia",
+      "position": 22,
+      "tracklist": "/assets/data/tracks/sia.json"
+    },
+    {
+      "id": 23,
+      "name": "Lana Del Rey",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/LanaDRPrimavera310524_%2832_of_147%29_%2853765476960%29_%28cropped%29.jpg/250px-LanaDRPrimavera310524_%2832_of_147%29_%2853765476960%29_%28cropped%29.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Lana",
+      "position": 23,
+      "tracklist": "/assets/data/tracks/lana.json"
+    },
+    {
+      "id": 24,
+      "name": "Nicki Minaj",
+      "picture_medium": "hhttps://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Nicki_Minaj_2025_%283x4_cropped%29.jpg/250px-Nicki_Minaj_2025_%283x4_cropped%29.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Nicki",
+      "position": 24,
+      "tracklist": "/assets/data/tracks/nicki.json"
+    },
+    {
+      "id": 25,
+      "name": "Eminem",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Eminem_2021_Color_Corrected.jpg/250px-Eminem_2021_Color_Corrected.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Eminem",
+      "position": 25,
+      "tracklist": "/assets/data/tracks/eminem.json"
+    },
+    {
+      "id": 26,
+      "name": "Beyoncé",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg/250px-Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Beyonce",
+      "position": 26,
+      "tracklist": "/assets/data/tracks/beyonce.json"
+    },
+    {
+      "id": 27,
+      "name": "Kendrick Lamar",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/KendrickSZASPurs230725-144_%28cropped%29_desaturated.jpg/250px-KendrickSZASPurs230725-144_%28cropped%29_desaturated.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Kendrick",
+      "position": 27,
+      "tracklist": "/assets/data/tracks/kendrick.json"
+    },
+    {
+      "id": 28,
+      "name": "Sam Smith",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/SamSmith-byPhilipRomano.jpg/250px-SamSmith-byPhilipRomano.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Sam+Smith",
+      "position": 28,
+      "tracklist": "/assets/data/tracks/sam.json"
+    },
+    {
+      "id": 29,
+      "name": "Halsey",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Halsey_%40_Hollywood_Forever_10_14_2025_%2854925751159%29.jpg/250px-Halsey_%40_Hollywood_Forever_10_14_2025_%2854925751159%29.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Halsey",
+      "position": 29,
+      "tracklist": "/assets/data/tracks/halsey.json"
+    },
+    {
+      "id": 30,
+      "name": "Lil Nas X",
+      "picture_medium": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Lil_Nas_X_Talks_About_Gaining_His_Father%27s_Acceptance%2C_Growing_Up_in_Atlanta%2C_%26_FINDING_HIMSELF_7-32_screenshot_%28headshot%29.jpg/250px-Lil_Nas_X_Talks_About_Gaining_His_Father%27s_Acceptance%2C_Growing_Up_in_Atlanta%2C_%26_FINDING_HIMSELF_7-32_screenshot_%28headshot%29.jpg",
+      "picture_xl": "https://via.placeholder.com/500x500?text=Lil+Nas+X",
+      "position": 30,
+      "tracklist": "/assets/data/tracks/lilnas.json"
+    }
+  ],
+  "total": 30
+}

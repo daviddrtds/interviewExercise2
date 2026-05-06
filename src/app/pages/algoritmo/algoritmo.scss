@@ -1,0 +1,52 @@
+.algoritmo {
+  max-width: 600px;
+
+  &__input-row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+
+  &__input {
+    flex: 1;
+    padding: 10px 16px;
+    background-color: var(--color-background-card);
+    color: var(--color-text-primary);
+    border: none;
+    border-radius: 6px;
+
+    &::placeholder {
+      color: var(--color-text-secondary);
+    }
+
+    &:focus {
+      outline: 1px solid var(--color-accent-primary);
+    }
+  }
+
+  &__btn {
+    padding: 10px 24px;
+    background-color: var(--color-accent-primary);
+    color: var(--color-text-primary);
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+  }
+
+  &__error {
+    color: var(--color-removed);
+    font-size: 0.875rem;
+    margin-bottom: 16px;
+  }
+
+  &__result {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: var(--color-background-card);
+    padding: 16px 20px;
+    border-radius: 6px;
+  }
+}
